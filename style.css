@@ -27,7 +27,6 @@ li {
   background-image: url("image/Ellipse18.svg");
   background-repeat: no-repeat;
   background-position: 0 -50px;
-  padding: 25px 0  0 60px;
   background-position-y: top;
   display: flex;
   flex-wrap: wrap;
@@ -66,16 +65,18 @@ h2 {
   font-size: 30px;
   font-weight: 500;
   color: #edecff;
-  margin: 40px 0 0;
   text-align: center;
+  padding: 30px 0 0 40px;
+  margin: 0;
 }
 
 h1 {
   font-size: 38px;
   font-weight: bold;
   color: #7d73fc;
-  margin: 50px 0 0;
   text-align: center;
+  padding: 60px 0 0 50px;
+  margin-bottom: 0;
 }
 
 .img img:hover {
@@ -83,9 +84,10 @@ h1 {
 }
 
 p {
-  margin: 50px 0 0 0;
-  font-size: 17px;
+  font-size: 20px;
   text-align: center;
+  margin: 0;
+  padding: 50px 20px;
 }
 
 h3 {
@@ -97,4 +99,8 @@ h3 {
 
 .media {
   margin: 0 10px 0 0;
+}
+
+nav {
+  margin: 30px 10px;
 }

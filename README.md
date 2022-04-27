@@ -1,15 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-> Portifolio-mobile-view
-
+# Portifolio-mobile-view
 
 ## Built With
 
 - Html
 - Css
-- 
 
 ## Getting Started
 **Clone Your Github Repository**
