@@ -99,7 +99,7 @@ p {
 }
 
 img:hover {
-  background-color: cyan;
+  background: cyan;
 }
 
 h3 {
@@ -137,6 +137,8 @@ nav {
 }
 
 .placeholder {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   padding: 30px 0;
   background: url("image/Ellipse19\(2\).svg");
@@ -153,7 +155,7 @@ nav {
 
 .items {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   padding: 0;
 }
 
@@ -163,7 +165,8 @@ nav {
   border-top: none;
   border-bottom: none;
   font-size: 15px;
-  width: 22%;
+  padding: 0 10px 0 0;
+  width: 20%;
 }
 
 .items .ruby {
@@ -179,6 +182,7 @@ nav {
   border: 0;
   float: left;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .c {
@@ -187,6 +191,8 @@ nav {
 }
 
 .background-image1 {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   padding: 30px 0;
   background: url("image/Ellipse20.svg");
@@ -199,6 +205,8 @@ nav {
 }
 
 .background-image2 {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   padding: 30px 0;
   background: url("image/Ellipse21.svg");
@@ -207,9 +215,24 @@ nav {
 }
 
 .background-image3 {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   padding: 30px 0;
   background: url("image/Ellipse22.svg");
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.button:hover {
+  background: #7d73fc;
+}
+
+.button:active {
+  background: #5e42d7;
+}
+
+.button:disabled {
+  background: #2a2b33;
+  cursor: not-allowed;
 }
