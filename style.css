@@ -154,8 +154,7 @@ nav {
 }
 
 .items {
-  display: flex;
-  justify-content: center;
+  float:left;
   padding-left: 20px;
 }
 
