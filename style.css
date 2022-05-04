@@ -241,4 +241,24 @@ nav {
   flex-direction: column;
   vertical-align: center;
 }
+form {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  width: 90%;
+  align-content: space-around;
+}
+.text {
+  width: 90%;
+  height: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+#message {
+  width: 90%;
+  height: 140px;
+  margin: 20px;
+  padding: 20px;
+}
+
 
