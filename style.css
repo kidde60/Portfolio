@@ -277,3 +277,7 @@ form {
   text-align: center;
   font-size: 20px;
 }
+#btn{
+  align-self: center;
+  margin-bottom: 50px;
+}
