@@ -261,4 +261,19 @@ form {
   padding: 20px;
 }
 
+.icons ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 20px;
+}
 
+.icons ul li {
+  padding: 10px;
+}
+
+.email {
+  color:#EBEBFF;
+  text-align: center;
+  font-size: 20px;
+}
