@@ -236,3 +236,9 @@ nav {
   background: #2a2b33;
   cursor: not-allowed;
 }
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  vertical-align: center;
+}
+
