@@ -236,11 +236,31 @@ nav {
   background: #2a2b33;
   cursor: not-allowed;
 }
-.contact-form{
+
+.contact-form {
   display: flex;
   flex-direction: column;
   vertical-align: center;
 }
+
+.contact-form p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 24px;
+  vertical-align: top;
+  margin: 0;
+}
+
+.contact-form h1 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  padding: 24px;
+  vertical-align: top;
+  margin-top: 50px;
+}
+
 form {
   display: flex;
   margin: 0;
@@ -248,12 +268,14 @@ form {
   width: 90%;
   align-content: space-around;
 }
+
 .text {
   width: 90%;
   height: 20px;
   padding: 20px;
   margin: 20px;
 }
+
 #message {
   width: 90%;
   height: 140px;
@@ -273,11 +295,12 @@ form {
 }
 
 .email {
-  color:#EBEBFF;
+  color: #ebebff;
   text-align: center;
   font-size: 20px;
 }
-#btn{
+
+#btn {
   align-self: center;
   margin-bottom: 50px;
 }
